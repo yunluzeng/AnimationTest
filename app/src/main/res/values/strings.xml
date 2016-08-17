@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AnimationTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_text1">Text1Activity</string>
+    <string name="title_activity_text2">Text2Activity</string>
+    <string name="title_activity_text3">Text3Activity</string>
+    <string name="title_activity_text4">Text4Activity</string>
+    <string name="title_activity_grag_grid">GragGridActivity</string>
+
+    <string name="title1_lucy">明天又会是新的一天\n而我们依然年轻</string>
+    <string name="title2_lucy">《大路》杰克.伦敦</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<lucy.animationtest.draggridview.GragGridView
+       android:id="@+id/drag_grid"   
+       android:layout_width="fill_parent"   
+       android:layout_height="fill_parent" 
+       android:numColumns="auto_fit"
+       android:columnWidth="70dp"
+       android:stretchMode="columnWidth"
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:cacheColorHint="#00000000"/>  
+</LinearLayout>

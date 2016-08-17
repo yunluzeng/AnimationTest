@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="颜色渐变" 
+        android:background="@android:color/holo_blue_bright"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="淡入淡出"
+        android:background="@android:color/holo_blue_light" />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="长按波纹外扩"
+        android:background="@android:color/holo_blue_dark" />
+     <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="球体动画"
+        android:background="@android:color/holo_blue_dark" />
+       <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="GragGridview"
+        android:background="@android:color/holo_green_dark" />
+    <TextView
+        android:id="@+id/lucy_test"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="lucy test"
+        android:background="@android:color/holo_green_dark" />
+
+</LinearLayout>
