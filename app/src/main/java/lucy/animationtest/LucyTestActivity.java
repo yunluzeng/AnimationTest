@@ -4,6 +4,7 @@ import android.animation.AnimatorSet;
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.app.Activity;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,7 +27,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
-public class LucyTestActivity extends AppCompatActivity {
+public class LucyTestActivity extends Activity {
     private TextView text1,text2;
     private TextView scaleText;
     private RelativeLayout contentLayout;
@@ -149,5 +150,11 @@ public class LucyTestActivity extends AppCompatActivity {
 
 //        scaleText.setAnimation(scaleAnimation);
 //        scaleAnimation.start();
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.activity_anima,R.anim.activity_exit);
     }
 }

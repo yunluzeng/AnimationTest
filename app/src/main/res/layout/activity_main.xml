@@ -1,8 +1,13 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
 
     <TextView
         android:id="@+id/text1"
@@ -24,7 +29,7 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:text="长按波纹外扩"
-        android:background="@android:color/holo_blue_dark" />
+        android:background="@android:color/holo_green_dark" />
      <TextView
         android:id="@+id/text4"
         android:layout_width="match_parent"
@@ -45,6 +50,31 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:text="lucy test"
-        android:background="@android:color/holo_green_dark" />
-
+        android:background="@android:color/holo_red_light" />
+    <TextView
+        android:id="@+id/lucy_svg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="svg动画"/>
+    <TextView
+        android:id="@+id/lucy_time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="时间切换"/>
+    <TextView
+        android:id="@+id/xferMode_test"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_red_light"
+        android:text="（未做）Xfermode子类练习"/>
 </LinearLayout>
+
+    <lucy.animationtest.CoverAnimView
+        android:id="@+id/cover_anim_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>

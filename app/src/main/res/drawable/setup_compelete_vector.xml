@@ -1,0 +1,19 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="54dp"
+    android:width="54dp"
+    android:viewportHeight="54"
+    android:viewportWidth="54" >
+  <group
+      android:name="setup_completed_icon"
+      android:pivotX="27"
+      android:pivotY="27"
+      android:rotation="0">
+    <path
+        android:name="setup_completed_icon_path"
+        android:strokeWidth="8"
+        android:strokeColor="#6D547B"
+        android:pathData="M3.56095,24.6128 L24.2746,44.0231 M23.0424,39.5095 L50.4592,9.49647"/>
+  </group>
+
+</vector>

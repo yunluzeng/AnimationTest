@@ -2,12 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="lucy.animationtest">
 
+    <!-- ZSUI added for read weather data -->
+    <uses-permission android:name="com.icoolme.zmweather.READ_CONTENTPROVIDER" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:supportsRtl="true">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,20 +19,22 @@
         </activity>
         <activity
             android:name=".Text1Activity"
-            android:label="@string/title_activity_text1"></activity>
+            android:label="@string/title_activity_text1" />
         <activity
             android:name=".Text2Activity"
-            android:label="@string/title_activity_text2"></activity>
+            android:label="@string/title_activity_text2" />
         <activity
             android:name=".Text3Activity"
-            android:label="@string/title_activity_text3"></activity>
+            android:label="@string/title_activity_text3" />
         <activity
             android:name=".Text4Activity"
-            android:label="@string/title_activity_text4"></activity>
+            android:label="@string/title_activity_text4" />
         <activity
             android:name=".GragGridActivity"
-            android:label="@string/title_activity_grag_grid"></activity>
-        <activity android:name=".LucyTestActivity"></activity>
+            android:label="@string/title_activity_grag_grid" />
+        <activity android:name=".LucyTestActivity" />
+        <activity android:name=".TimeActivity" />
+        <activity android:name=".draggridview.SvgActivity"></activity>
     </application>
 
 </manifest>

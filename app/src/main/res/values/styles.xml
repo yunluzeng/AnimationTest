@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_anima</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_anima</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_exit</item>
+    </style>
+
+    <style name="set_complete_ThemeActivity">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 </resources>
